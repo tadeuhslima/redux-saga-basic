@@ -1,0 +1,14 @@
+export enum Types {
+  POKEMON_LIST_REQUEST = '@pokemon/POKEMON_LIST_REQUEST',
+  POKEMON_LIST_SUCCESS = '@pokemon/POKEMON_LIST_SUCCESS',
+  POKEMON_LIST_FAILURE = '@pokemon/POKEMON_LIST_FAILURE',
+  POKEMON_DETAILS_REQUEST = '@pokemon/POKEMON_DETAILS_REQUEST',
+  POKEMON_DETAILS_SUCCESS = '@pokemon/POKEMON_DETAILS_SUCCESS',
+  POKEMON_DETAILS_FAILURE = '@pokemon/POKEMON_DETAIL_FAILURE',
+}
+
+export interface PokemonState {
+  list: any;
+  details: any;
+}
+
